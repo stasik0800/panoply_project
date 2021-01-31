@@ -1,0 +1,45 @@
+{
+  "_id": "5f9a960ff6b2d400087f60e3",
+  "company_name": "AAN Stock quote",
+  "market_cap": "$2.85B",
+  "number_of_employees": 3,
+  "counntry": "United States",
+  "stores": [
+    {
+      "store_id": 12345,
+      "store_name": "a",
+      "number_of_employees": 2,
+      "employees": [
+        {
+          "emp_id": 1234,
+          "first_name": "Danski",
+          "last_name": "Angolano",
+          "email": "Dan.Angolano@aanstock.com",
+          "salery": 90000
+        },
+        {
+          "emp_id": 1235,
+          "first_name": "Dennis",
+          "last_name": "Asser",
+          "email": "dennis.asser@aanstock.com",
+          "salery": 120000
+        }
+      ]
+    },
+    {
+      "store_id": 12346,
+      "store_name": "b",
+      "number_of_employees": 1,
+      "employees": [
+        {
+          "emp_id": 1236,
+          "first_name": "Michel",
+          "last_name": "Martin",
+          "email": "michel.martin@aanstock.com",
+          "salery": 150000
+        }
+      ]
+    }
+  ]
+
+}
