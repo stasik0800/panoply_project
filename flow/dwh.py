@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from utils.redshift_connection import RedshiftClient
 
-stg2dwh_scripts =['employees.sql','employees.sql','stores.sql'] 
+stg2dwh_scripts =['company.sql','employees.sql','stores.sql']
 
 def load(SQL_SCRIPT_PATH):
     redshift_client = RedshiftClient()
