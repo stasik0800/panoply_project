@@ -1,5 +1,14 @@
+Env:
 python 3.6
 
+Doc:
+Load to stg:
+python code orginize json data to dataframes
+then uploading to stg by replace method (drop and create tables)
+    * option over dwh also use this method IF data module is static
 
-
-
+Load to dwh: 
+upsert not supported on Redshift splited to 2 steps:
+1) insert new records that not exists in dwh tables
+2) update records by id ,
+    * option for avoding  unnecessary updates over big tables can use md5 on several columns (source and target)

@@ -22,3 +22,4 @@ update dwh_employees
        etl_updated = GETDATE()
 from  employees b
 where dwh_employees.emp_id = b.emp_id;
+-- option add md5 on several columns to know which records to update

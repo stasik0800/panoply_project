@@ -19,4 +19,5 @@ update dwh_company
         counntry= a.counntry ,
         etl_updated= GETDATE()
 from  company a
-where dwh_company._id = a._id;
+where dwh_company._id = a._id ;
+-- option add md5 on several columns to know which records to update

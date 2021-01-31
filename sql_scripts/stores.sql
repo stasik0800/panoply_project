@@ -19,3 +19,4 @@ update dwh_stores
        etl_updated = GETDATE()
 from  stores b
 where dwh_stores.store_id = b.store_id;
+-- option add md5 on several columns to know which records to update
