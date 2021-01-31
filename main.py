@@ -13,7 +13,7 @@ def main():
         json_data = json.load(f)
 
     try:
-        stg.orginize_data(table_name='company',json_data=json_data) # for the first loop table_name sets manualy
+        stg.orginize_data(table_name='company',json_data=json_data) # for the first loop table_name set hardcoded
         stg.load()
     except Exception as e:
         print('failed on stg layer')
